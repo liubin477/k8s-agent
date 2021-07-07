@@ -1,0 +1,8 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: k8s-agent
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
